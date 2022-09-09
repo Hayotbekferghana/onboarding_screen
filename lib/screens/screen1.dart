@@ -108,12 +108,4 @@ class ScreenOne extends StatelessWidget {
   }
 }
 
-class MyCircle extends CustomPainter {
-  @override
-  void paint(Canvas canvas, Size size) {
-    var paint = Paint()..color = Colors.white;
-  }
 
-  @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) => true;
-}
